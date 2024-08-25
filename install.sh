@@ -21,7 +21,6 @@ else
 	git clone https://github.com/Fearioh/PoolParty.git $HOME/Documents/script/PoolParty
 	echo "alias pp='bash $HOME/Documents/script/PoolParty/poolparty.sh'" >> $HOME/.zshrc
 	zsh -c "source $HOME/.zshrc"
+	echo -e "\n${GREEN}L'installation de PoolParty est complète, tapez "pp" dans votre terminal pour l'utiliser !${RESET}\n"
 	exec zsh
 fi
-
-echo -e "\n${GREEN}L'installation de PoolParty est complète, tapez "pp" dans votre terminal pour l'utiliser !${RESET}\n"
